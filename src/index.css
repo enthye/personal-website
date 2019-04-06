@@ -27,11 +27,18 @@ a{
     color:#343a40;
 }
 
-h2,p{
+h2,p,ul{
     color:white;
 }
 
 p.bottomText {
     padding-top: 120px;
 }
+
+ul {
+    display: block;
+    list-style-type: none;
+    text-align: right;
+}
+
 

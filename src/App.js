@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import BurgerMenu from './BurgerMenu/BurgerMenu';
+import NavbarMain from "./NavbarMain";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav className="navbar navbar-dark bg-dark text-light">
-            <a className="navbar-brand" href="/">Kevin Xu</a>
-            <BurgerMenu/>
-        </nav>
-
+        <NavbarMain/>
           <svg width="100%" height="320">
               <circle cx="50%" cy="50%" r="100" fill="white"/>
           </svg>
