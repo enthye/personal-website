@@ -1,4 +1,3 @@
-import BurgerMenu from "./BurgerMenu/BurgerMenu";
 import React from "react";
 
 export default class NavbarMain extends React.Component {
@@ -14,12 +13,10 @@ export default class NavbarMain extends React.Component {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-
-
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">My Website</a>
+                            <a className="nav-link" href="/">My Website</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://github.com/enthye">My Github</a>

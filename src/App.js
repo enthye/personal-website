@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './index.css';
 import NavbarMain from "./NavbarMain";
 
 class App extends Component {
@@ -16,11 +17,7 @@ class App extends Component {
           </h2>
 
           <p className="bottomText" align="center">Website strongly inspired by movio.co</p>
-
-
-
-
-      </div>
+     </div>
     );
   }
 }
