@@ -27,8 +27,8 @@ a{
     color:#343a40;
 }
 
-h2,p,ul{
-    color:white;
+h2,p,ul,a,li{
+    color:white!important;
 }
 
 p.bottomText {

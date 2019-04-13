@@ -1,18 +1,15 @@
 import React from 'react';
-import BurgerMenuItem from './BurgerMenuItem';
+import {slide as Menu} from "react-burger-menu";
+import './burgermenu.css';
 
 export default class BurgerMenu extends React.Component {
     render() {
         return (
-            <div>
-                <button className="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-
-            </div>
+                <Menu right>
+                    <a id="home" className="menu-item" href="/">Home</a>
+                    <a id="github" className="menu-item" href="https://github.com/enthye">My Github</a>
+                    <a id="paletton" className="menu-item" href="http://paletton.com">Paletton</a>
+                </Menu>
         );
     }
 }
