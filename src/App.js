@@ -17,6 +17,17 @@ class App extends Component {
                         Inspired Solutions Driven Design
                     </h2>
 
+                    <div align="center">
+                        <a href="https://movio.co/">Movio</a>
+                        <p/>
+                        <a href="https://archipro.co.nz/">Archipro</a>
+                        <p/>
+                        <a href="https://www.sidart.co.nz/">Sidart</a>
+                        <p/>
+                        <a href="https://www.apple.com/nz/">Apple</a>
+                    </div>
+
+
                     <footer>
                         <p className="bottomText" align="center">Website strongly inspired by movio.co</p>
                     </footer>
