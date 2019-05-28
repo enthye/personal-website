@@ -18,13 +18,24 @@ class App extends Component {
                     </h2>
 
                     <div align="center">
+                        <h2 align="center">Good Website Designs</h2>
                         <a href="https://movio.co/">Movio</a>
                         <p/>
                         <a href="https://archipro.co.nz/">Archipro</a>
                         <p/>
-                        <a href="https://www.sidart.co.nz/">Sidart</a>
-                        <p/>
                         <a href="https://www.apple.com/nz/">Apple</a>
+                        <p/>
+                        <a href="https://www.tesla.com/">Tesla Motors</a>
+                        <p/>
+                        <h2 align="center">Good Software UIs</h2>
+                        <p/>
+                        <a href="https://www.sourcetreeapp.com/">
+                            Sourcetree (Atlassian)</a>
+                        <p/>
+                        <a href="https://get.adobe.com/reader/">
+                            Adobe Reader (Adobe)</a>
+
+
                     </div>
 
 
